@@ -1,5 +1,15 @@
 [
   {
+    "slug": "beto-carrero",
+    "titulo": "Beto Carrero World",
+    "destino": "Penha, Santa Catarina",
+    "descricao": "6 a 10 de maio para 2 adultos: passagens, transfer, hotel 3 estrelas com café da manhã e 2 dias de parque. 12x R$ 321 ou R$ 3.660 no PIX.",
+    "imagem": "assets/beto-carrero-castelo.jpg",
+    "etiqueta": "Promoção",
+    "link": "destinos/beto-carrero.html",
+    "ativa": true
+  },
+  {
     "titulo": "Sua próxima viagem pode começar aqui",
     "destino": "Ofertas personalizadas",
     "descricao": "Conte para a gente o destino que está nos seus planos e consulte oportunidades disponíveis.",

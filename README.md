@@ -28,3 +28,17 @@ Editar `ofertas.json`, mantendo os campos `titulo`, `destino`, `descricao`, `ima
 
 ## Painel administrativo
 A pasta `/admin` será configurada numa próxima etapa com CMS e autenticação. Não inserir senhas, tokens ou chaves privadas em arquivos públicos do site.
+
+## Páginas de ofertas e destinos
+- `ofertas.html`: lista todas as ofertas com `ativa: true` em `ofertas.json`.
+- `destinos/beto-carrero.html`: página de venda da promoção do Beto Carrero World (também acessível pelo card em "Destinos" na página inicial).
+- `ofertas.css`: estilos compartilhados pelas páginas internas.
+- `assets/`: logotipo (`logo.png`, também usado como favicon) e foto do parque.
+
+### Adicionar uma nova oferta
+1. Copiar `destinos/beto-carrero.html` para `destinos/nome-da-oferta.html` e editar título, datas, valores, itens inclusos e a mensagem do WhatsApp (atributo `data-whatsapp`).
+2. Incluir um item em `ofertas.json` com `slug`, `titulo`, `destino`, `descricao`, `imagem`, `etiqueta`, `link` (`destinos/nome-da-oferta.html`) e `ativa`.
+3. Enviar ao GitHub para novo deploy.
+
+### WhatsApp
+O número fica em um único lugar: `WHATSAPP_NUMBER` no `script.js`. Os botões "Contato" e "Garanta agora!" usam esse número.
