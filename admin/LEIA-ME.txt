@@ -1,5 +1,0 @@
-PAINEL ADMINISTRATIVO — A CONFIGURAR
-
-O site foi preparado para receber um CMS conectado ao repositório Git. O painel de edição ainda não está ativo nesta primeira entrega.
-
-A próxima etapa é escolher e configurar o provedor CMS/autenticação e o repositório GitHub. Não publique credenciais ou tokens nesta pasta.
